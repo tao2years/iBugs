@@ -15,7 +15,7 @@ by 4 authors, including 7 columns:
 - Issue ID. Indicate the issue where the bug was identified.
   Considering the issue
   (https://github.com/home-assistant/core/issues/43173), we record
-  *43173* in this column.
+  *43173* in this column. People can access the raw data from the url.
 - Integration. Indicate the device integration where the bug occurred. 
 - Taxonomy. The taxonomy of the root cause. Specifically, in this
   article, it represents the corresponding life cycle stage, e.g.,
@@ -24,6 +24,9 @@ by 4 authors, including 7 columns:
 - Fix. Brief descriptions of fix patterns.
 - Impact. Impacts that iBugs can lead to.
 - Trigger. Types of trigger conditions.
+
+Note that, if we can not obtain the corresponding aspects (fix,
+impact, trigger), we set it as an empty cell.
 
 
 ## How did we construct the dataset?
